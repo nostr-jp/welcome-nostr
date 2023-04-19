@@ -39,4 +39,4 @@ https://scrapbox.io/nostr/NIP-07 により詳しいリストがあります。
 
 ## おまけ: hex って何？
 
-クライアントがログイン時に `npub` や `nsec` ではなく `hex` 形式の鍵を要求してくることがあります。これは `hex` は `npub` や `nsec` をより機械に取って読み取りやすい形に直したものです。[無限ツールズ](https://mugen-tools.com/tools/nostrkey.php)などで相互に変換できます。
+クライアントがログイン時に `npub` や `nsec` ではなく `hex` 形式の鍵を要求してくることがあります。これは `hex` は `npub` や `nsec` をより機械にとって読み取りやすい形に直したものです。[無限ツールズ](https://mugen-tools.com/tools/nostrkey.php)などで相互に変換できます。
