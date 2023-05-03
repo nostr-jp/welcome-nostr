@@ -50,7 +50,12 @@
 ### 補遺
 
 - [トラブルシューティング](./trouble-shooting.md)
+  - [ユーザのアイコンと名前が見えないか、古いままである / 自分のアイコンと名前が他のユーザから見えないか、古いままである](./trouble-shooting.md#cannot-see-profile)
+  - [フォローが勝手に外れてしまった](./trouble-shooting.md#lost-following)
 - [FAQ](./faq.md)
+  - [なぜ秘密鍵を漏らしてはいけないの？](./faq.md#nsec-is-confidential)
+  - [投稿が消せないって本当？](./faq.md#cannot-i-delete-post)
+  - [Kind ってなに？](./faq.md#what-is-kind)
 
 ## Nostr についてもっと詳しく知りたい
 
