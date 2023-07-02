@@ -1,3 +1,3 @@
 # Welcome Nostr
 
-https://nostr-jp.org/
+https://welcome.nostr-jp.org/
