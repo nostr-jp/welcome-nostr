@@ -42,7 +42,7 @@ export default defineUserConfig({
     },
     editLinkText: "このページを編集",
     docsRepo: "https://github.com/nostr-jp/welcome-nostr",
-    docsBranch: "main",
+    docsBranch: "master",
     docsDir: "docs",
   }),
 });
