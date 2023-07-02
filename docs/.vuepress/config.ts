@@ -3,7 +3,6 @@ import attrs from "markdown-it-attrs";
 
 export default defineUserConfig({
   // To host on GitHub Pages.
-  base: "/",
   lang: "ja_JP",
   title: "Welcome to Nostr!",
   // Ban README.md. Use index.md instead.
