@@ -1,8 +1,8 @@
 import { defineUserConfig, defaultTheme } from "vuepress";
 import attrs from "markdown-it-attrs";
+import footnote from "markdown-it-footnote";
 
 export default defineUserConfig({
-  // To host on GitHub Pages.
   lang: "ja_JP",
   title: "Welcome to Nostr!",
   // Ban README.md. Use index.md instead.
@@ -10,6 +10,7 @@ export default defineUserConfig({
   extendsMarkdown: (md) => {
     // Allow `# Header Text {#custom-id-attr}` syntax.
     md.use(attrs);
+    md.use(footnote);
   },
   theme: defaultTheme({
     navbar: [

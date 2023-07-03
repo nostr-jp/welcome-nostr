@@ -8,8 +8,11 @@
 - [Nostr プロトコル(damus)を触ってみた - Qiita](https://qiita.com/gpsnmeajp/items/77eee9535fb1a092e286)
   - Nostr の技術的な概要について簡潔にまとまっています
 - Nostr 勉強会: Nostr のはじめ方からサービス開発方法まで幅広く扱っている勉強会。動画とスライドが残っています。
-  - #0: https://428lab.connpass.com/event/275748/
-  - #1: https://428lab.connpass.com/event/276333/
-  - #2: https://428lab.connpass.com/event/278107/
+  - #0: [https://428lab.connpass.com/event/275748/](https://428lab.connpass.com/event/275748/)
+  - #1: [https://428lab.connpass.com/event/276333/](https://428lab.connpass.com/event/276333/)
+  - #2: [https://428lab.connpass.com/event/278107/](https://428lab.connpass.com/event/278107/)
 - [nostr-jp/awesome-nostr-japan](https://github.com/nostr-jp/awesome-nostr-japan)
   - 日本ユーザによって作られた Nostr 関連ツール/サービスの一覧
+- [Hello Nostr! 先住民が教える Nostr の歩き方](https://booth.pm/ja/items/4781815) (書籍・電子書籍)
+- [nostr-protocol/nips](https://github.com/nostr-protocol/nips)
+  - Nostr の仕様書 (NIP) の一次ソース。内容はやや専門的です。
