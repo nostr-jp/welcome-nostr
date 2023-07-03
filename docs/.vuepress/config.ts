@@ -1,6 +1,7 @@
 import { defineUserConfig, defaultTheme } from "vuepress";
 import attrs from "markdown-it-attrs";
 import footnote from "markdown-it-footnote";
+import toc from "markdown-it-table-of-contents";
 
 export default defineUserConfig({
   lang: "ja_JP",
@@ -10,7 +11,11 @@ export default defineUserConfig({
   extendsMarkdown: (md) => {
     // Allow `# Header Text {#custom-id-attr}` syntax.
     md.use(attrs);
+    // Allow `[^1]` syntax.
     md.use(footnote);
+    md.use(toc, {
+      includeLevel: [2],
+    });
   },
   theme: defaultTheme({
     navbar: [
