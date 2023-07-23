@@ -9,25 +9,25 @@ Damus (ダムス) は代表的な iOS 用の Nostr クライアントです。
 
 * <https://apps.apple.com/jp/app/damus/id1628663131>
 
-![screenshot](./images/01-app-store.jpeg)
+![AppStoreに掲載されているDamus](./images/01-app-store.jpeg)
 
 ## アカウントの作成 {#create-account}
 
 アプリを開いて、「はじめよう！」をタップします。
 
-![screenshot](./images/02-welcome.png)
+![ようこそ](./images/02-welcome.png)
 
 利用規約 (EULA) が出てくるので、規約に同意する場合は 「許可」 (または「同意する」) をタップしましょう。
 
-![screenshot](./images/03-eula.png)
+![利用規約](./images/03-eula.png)
 
 サインイン画面が表示されるので「アカウント作成」をタップします。
 
-![screenshot](./images/04-signin.png)
+![サインイン画面](./images/04-signin.png)
 
 まず、あなたのプロフィールを登録します。入力が終わったら「アカウントを作成」ボタンをタップしてください。
 
-![screenshot](./images/05-account-creation.png)
+![プロフィール登録画面](./images/05-account-creation.png)
 
 次に、あなたの **公開鍵** と **秘密鍵** が表示されるので、保存しましょう。
 公開鍵と秘密鍵についてここでは簡単な説明にとどめるので、詳しく知りたい方は [公開鍵・秘密鍵って何？](/guide/key-pair.html) を読んでみてください。
@@ -36,20 +36,20 @@ Damus (ダムス) は代表的な iOS 用の Nostr クライアントです。
 コピーボタンを押さないと次に進みません。
 後からでもコピーすることもできるので、とりあえずタップして次に進みましょう。
 
-![screenshot](./images/06-npub.png)
+![公開鍵のコピー](./images/06-npub.png)
 
 **秘密鍵** は、パスワードのようなもので **誰にも伝えてはいけません** 。
 公開鍵と取り違えないように注意してください。`nsec` で始まるのが秘密鍵です。
 これも[後でコピーできる](#backup-nsec) ので、一旦ボタンをタップして後回しにしても大丈夫です。
 
-![screenshot](./images/07-nsec.png)
+![秘密鍵のコピー](./images/07-nsec.png)
 
 秘密鍵は、他人に簡単に見られない場所に安全に保管しておきましょう。
 保管方法がわからない方は [おまけ: 秘密鍵を安全に保管する](#secure-storage-for-nsec) を参考にしてみてください。
 
 最後に「Let's go!」をタップすればアカウント作成は完了です。
 
-![screenshot](./images/08-lets-go.png)
+![アカウント作成完了](./images/08-lets-go.png)
 
 ## リレーの設定 {#set-relays}
 
@@ -60,11 +60,11 @@ Nostr は分散型 SNS です。接続先のサーバーを自分で選ぶこと
 
 まず、左上のアイコンをタップしてメニューを開きます。
 
-![screenshot](./images/09-menu.png)
+![メニューアイコン](./images/09-menu.png)
 
 その中から「リレー」をタップします。
 
-![screenshot](./images/10-menu-relay.png)
+![メニューのリレー](./images/10-menu-relay.png)
 
 リレーの設定画面にやってきました。
 
@@ -77,11 +77,11 @@ Nostr は分散型 SNS です。接続先のサーバーを自分で選ぶこと
 - `wss://relay-jp.nostr.wirednet.jp`
 - `wss://yabu.me`
 
-![screenshot](./images/11-initial-relay.png)
+![初期状態のリレー](./images/11-initial-relay.png)
 
 以下のように赤枠で囲んだ入力欄に入力して「追加」をタップしてください。
 
-![screenshot](./images/12-add-relay.png)
+![日本リレーの追加](./images/12-add-relay.png)
 
 設定が完了したら、左上の「ホーム」で元の画面に戻ります。
 
@@ -96,11 +96,11 @@ Nostr は分散型 SNS です。接続先のサーバーを自分で選ぶこと
 
 左上のアイコンをタップしてメニューを開き、「プロフィール」をタップします。
 
-![screenshot](./images/13-menu-profile.png)
+![メニューのプロフィール](./images/13-menu-profile.png)
 
 次に「編集」ボタンをタップします。
 
-![screenshot](./images/14-profile.png)
+![ユーザ画面のプロフィール編集ボタン](./images/14-profile.png)
 
 ここでプロフィール画像などの設定ができます。
 
@@ -113,7 +113,7 @@ Nostr は分散型 SNS です。接続先のサーバーを自分で選ぶこと
 他のユーザに ID を取られる心配はないので、好きなように設定しましょう。
 :::
 
-![screenshot](./images/15-profile-edit.png)
+![プロフィール編集画面](./images/15-profile-edit.png)
 
 設定が終わったら、一番下にスクロールして「保存」ボタンをタップしましょう。
 
@@ -124,13 +124,13 @@ Nostr は分散型 SNS です。接続先のサーバーを自分で選ぶこと
 
 ユニバースタイムラインを開くには、画面下端の虫眼鏡アイコンをタップします。
 
-![screenshot](./images/16-home-universe.png)
+![ユニバースタブ](./images/16-home-universe.png)
 
 これがユニバースタイムラインです。
 英語の投稿が多いでしょうが、日本のリレーを設定しているので日本語の投稿も見つけられるでしょう。
 気になったユーザーがいたらアイコンをクリックして、ユーザーのページからフォローしてみましょう。
 
-![screenshot](./images/17-universe.png)
+![ユニバース画面](./images/17-universe.png)
 
 ユーザの探し方に関しては [タイムラインを作ろう](/tutorial/make-your-timeline.md) も合わせて読んでみてください。
 
@@ -139,7 +139,7 @@ Nostr は分散型 SNS です。接続先のサーバーを自分で選ぶこと
 ホームタイムラインに戻って、右下のプラスボタン⊕から投稿できます。
 Nostr には文字数制限がありませんので、好きなように投稿してみましょう。
 
-![screenshot](./images/18-create-note.png)
+![投稿ボタン](./images/18-create-note.png)
 
 ## 次のアクション {#next-action}
 
@@ -154,15 +154,15 @@ Nostr には文字数制限がありませんので、好きなように投稿�
 
 1. メニューで「設定」をタップ
 
-![screenshot](./images/ex1-01-menu-settings.png)
+![メニューの設定](./images/ex1-01-menu-settings.png)
 
 2. 「鍵」をタップ
 
-![screenshot](./images/ex1-02-settings-keys.png)
+![設定画面の鍵](./images/ex1-02-settings-keys.png)
 
 3. 「ログイン用秘密鍵」のコピーボタンをタップ
 
-![screenshot](./images/ex1-03-keys.png)
+![秘密鍵コピー](./images/ex1-03-keys.png)
 
 ## おまけ 2: 秘密鍵を安全に保管する {#secure-storage-for-nsec}
 
@@ -178,7 +178,7 @@ iOS に最初からインストールされている「メモ」アプリを利�
 2. タイトルに「Nostr 秘密鍵」と記入し、本文にコピーした秘密鍵をペースト
 3. 画面右上の詳細ボタン (…) を開いて「ロック」をタップ
 
-![screenshot](https://scrapbox.io/files/644d49c5643f38001b52f355.jpeg)
+![メモアプリのロック機能](https://scrapbox.io/files/644d49c5643f38001b52f355.jpeg)
 
 ### パスワード機能を使う {#use-password}
 
@@ -187,7 +187,7 @@ iOS に最初からインストールされている「メモ」アプリを利�
 
 「Web サイト」欄は `nostr.keypair` にしておきましょう（`.` を付けないと保存できないため）。
 
-![screenshot](https://scrapbox.io/files/644d4c8a6d7df4001bb151d5.jpeg)
+![パスワード機能の入力例](https://scrapbox.io/files/644d4c8a6d7df4001bb151d5.jpeg)
 
 ## おまけ 3: 他の Nostr クライアントとの違い {#feature-comparison}
 
