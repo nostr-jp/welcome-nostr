@@ -1,5 +1,6 @@
 import { defineUserConfig, defaultTheme } from "vuepress";
 import attrs from "markdown-it-attrs";
+import { gitPlugin } from "@vuepress/plugin-git";
 import footnote from "markdown-it-footnote";
 import toc from "markdown-it-table-of-contents";
 
@@ -17,6 +18,11 @@ export default defineUserConfig({
       includeLevel: [2],
     });
   },
+  plugins: [
+    gitPlugin({
+      contributors: false,
+    }),
+  ],
   theme: defaultTheme({
     navbar: [
       {
