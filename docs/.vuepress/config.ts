@@ -56,6 +56,7 @@ export default defineUserConfig({
       ],
     },
     editLinkText: "このページを編集",
+    lastUpdatedText: "最終更新日時",
     docsRepo: "https://github.com/nostr-jp/welcome-nostr",
     docsBranch: "master",
     docsDir: "docs",
