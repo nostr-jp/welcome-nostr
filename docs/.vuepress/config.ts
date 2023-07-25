@@ -27,6 +27,10 @@ export default defineUserConfig({
     sidebar: {
       "/": [
         {
+          text: "Nostr の始めかた",
+          children: ["/get-started/damus.md"],
+        },
+        {
           text: "チュートリアル",
           children: [
             "/tutorial/set-profile-image.md",
