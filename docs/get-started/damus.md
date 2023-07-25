@@ -69,7 +69,6 @@ Nostr は分散型 SNS です。接続先のサーバー (**リレー** と言�
 
 - `wss://nostr-relay.nokotaro.com`
 - `wss://nostr.holybea.com`
-- `wss://nostr.h3z.jp`
 - `wss://relay-jp.nostr.wirednet.jp`
 - `wss://yabu.me`
 
