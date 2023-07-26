@@ -61,4 +61,10 @@ export default defineUserConfig({
     docsBranch: "master",
     docsDir: "docs",
   }),
+  head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["link", { rel: "icon", href: "/icon.webp", type: "image/webp" }],
+    ["link", { rel: "apple-touch-icon", href: "/apple-touch-icon.png" }],
+    ["link", { rel: "manifest", href: "/manifest.json" }],
+  ],
 });
