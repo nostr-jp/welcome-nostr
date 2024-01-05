@@ -4,9 +4,11 @@ title: Home
 
 # Welcome to Nostr!
 
+![welcome_banner](images/welcome_banner.png)
+
 ようこそ Nostr へ！
 
-このサイトはとりあえず Nostr にアカウントを作ったものの、次の一歩がわからない人のための案内所です。このサイトが提供するのは以下のような情報です:
+このサイトはとりあえず Nostr に興味があるものの、次の一歩がわからない人のための案内所です。このサイトが提供するのは以下のような情報です:
 
 - Nostr のアカウントの作り方
 - SNS としての Nostr を歩くために必要な最低限の知識
@@ -17,8 +19,13 @@ title: Home
 
 逆に、以下のような情報は取り扱いません:
 
-- プロトコルとしての Nostr に関する技術的な話題
-  - [https://scrapbox.io/nostr/NIP](https://scrapbox.io/nostr/NIP) が代わりにあなたの助けになってくれるでしょう
+- プロトコルとしての Nostr に関する技術的な話題  
+　以下が本文書に代わりあなたの助けになってくれるでしょう
+  - [日本コミュニティ有志による仕様解説(scrapbox)](https://scrapbox.io/nostr/NIP)
+  - [日本コミュニティ有志による仕様翻訳(nips-ja)](https://github.com/nostr-jp/nips-ja)
+  - [nostr公式のプロトコル理念の説明(nostr-protocol, 英語)](https://github.com/nostr-protocol/nostr)
+  - [nostr公式仕様(nips, 英語)](https://github.com/nostr-protocol/nips)
+  
 
 ## はじめに
 
@@ -27,7 +34,7 @@ title: Home
 - アカウントを作った際に覚えておくように言われたであろう、`nsec1` から始まる長い文字列 (**秘密鍵**; Secret Key; nsec) は **絶対に** **誰にも** 教えてはいけません。また、忘れてもいけません。
   - `npub1` から始まる長い文字列 (**公開鍵**; Public Key; npub) は誰に教えても問題ありません。
   - 参考: [なぜ秘密鍵を漏らしてはいけないの？](/faq.md#why-is-nsec-confidential)
-- Nostr 上での投稿を完全に消去することは原則としてできません。
+- Nostr 上での投稿の削除はできますが、完全な消去は期待できません。
 - SNS としての Nostr はその仕組み上大量の通信を行う傾向にあります。もしあなたがモバイル回線で Nostr を歩こうとしている場合には心に留めておいてください。
 
 以上のことだけ知っておけばひとまずは十分です。これであなたは自力で Nostr の世界を冒険することもできるでしょう。
@@ -35,5 +42,13 @@ title: Home
 しかし、Nostr はあなたが今までに経験してきた SNS とは少し違った姿をしていて、それに戸惑うこともあるかもしれません。そうした人は、またはそれに備えたいと思う人は、本ページの目次から先に進むといいでしょう。順番に読む必要も、すべてを読む必要もありません。興味のあるものだけを読んで、あとは実際に Nostr に触れて確かめてみてください。
 
 ---
+
+::: warning
+**Nostr Assets Protocol**および**Nostrトークン**と呼ばれるものは、Nostrの名前を勝手に使用している無関係の(おそらく詐欺)通貨です。混同しないようにご注意ください。
+:::
+
+---
+
+![character](images/nos.png)
 
 本ページについての加筆・修正の提案は [こちら](https://github.com/nostr-jp/welcome-nostr/issues) からお願い致します。
