@@ -6,7 +6,7 @@ import toc from "markdown-it-table-of-contents";
 
 export default defineUserConfig({
   lang: "ja_JP",
-  title: "Welcome to Nostr!",
+  title: "Welcome to Nostr! ～ Nostrをはじめよう！ ～",
   // Ban README.md. Use index.md instead.
   pagePatterns: ["**/*.md", "!**/README.md", "!.vuepress", "!node_modules"],
   extendsMarkdown: (md) => {
@@ -34,7 +34,10 @@ export default defineUserConfig({
       "/": [
         {
           text: "Nostr の始めかた",
-          children: ["/get-started/damus.md"],
+          children: [
+            "/get-started/damus.md",
+            "/get-started/nostter.md",
+          ],
         },
         {
           text: "チュートリアル",
