@@ -3,7 +3,7 @@
 nostter (ノスッター) は PC/iOS/Androidで使用できる代表的な Web版 Nostr クライアントです。
 ここでは、 nostter を使って Nostr を始める方法について解説します。
 
-![ロゴ](./images/nostter/01-logo.png)
+![ロゴ](./images/nostter/01-logo.webp)
 
 ## インストールする {#install}
 
@@ -17,25 +17,25 @@ nostterでは、アカウントを作る前に、どのような投稿が行わ�
 
 [「タイムラインをのぞいてみる」](https://nostter.app/trend)をタップして、覗いてみましょう。
 
-![タイムラインをのぞいてみるボタン](./images/nostter/02-view-timeline.png)
+![タイムラインをのぞいてみるボタン](./images/nostter/02-view-timeline.webp)
 
 PCやタブレットでは、左のログインボタン、スマートフォンでは右下のボタンからログイン画面に戻ることができます。
 
-![ログイン画面に戻る](./images/nostter/03-to-login-screen.png)
+![ログイン画面に戻る](./images/nostter/03-to-login-screen.webp)
 
 ## アカウントを作成する {#create-account}
 
 [トップページ](https://nostter.app/)を開いて、「アカウントを作成」をタップします。
 
-![アカウント作成ボタン](./images/nostter/04-account-create.png)
+![アカウント作成ボタン](./images/nostter/04-account-create.webp)
 
 名前欄にハンドルネームを入力して、「作成」をタップしましょう。
 
-![名前入力欄](./images/nostter/05-enter-your-name.png)
+![名前入力欄](./images/nostter/05-enter-your-name.webp)
 
 これでアカウントの作成は完了です。
 
-![タイムライン](./images/nostter/06-timeline.png)
+![タイムライン](./images/nostter/06-timeline.webp)
 
 なお、このままNostrの世界をお楽しみいただけますが、このままだと何らかの理由でアクセスできなくなった際に、戻ってくることができなくなってしまいます。
 (例えば、端末のアップデートの失敗、ブラウザキャッシュの消去、端末の紛失など)
@@ -51,9 +51,9 @@ Nostterではプロフィール画面からいつでも確認することがで�
 
 設定(⚙)をタップし、一番下のShowをタップすると表示されるものが秘密鍵です。
 
-![設定画面](./images/nostter/07-settings.png)
+![設定画面](./images/nostter/07-settings.webp)
 
-![秘密鍵](./images/nostter/08-nsec.png)
+![秘密鍵](./images/nostter/08-nsec.webp)
 
 
 コピーして、秘密鍵は忘れないように適切な場所に保管しておきましょう。適切な保管方法がわからない方は [おまけ: 秘密鍵を安全に保管する](#secure-storage-for-nsec) を参考にしてみてください。
@@ -67,7 +67,7 @@ Nostterではプロフィール画面からいつでも確認することがで�
 
 トレンドタイムラインを開くには、画面上端の「トレンド」をタップします。
 
-![トレンド](./images/nostter/09-trend.png)
+![トレンド](./images/nostter/09-trend.webp)
 
 これがトレンドタイムラインです。
 気になったユーザがいたらアイコンをクリックして、ユーザのページからフォローしてみましょう。
@@ -81,7 +81,7 @@ Nostterではプロフィール画面からいつでも確認することがで�
 PCであれば右側の投稿ボタン、スマートフォンであれば右下の投稿✏ボタンから投稿できます。
 Nostr には文字数制限がありませんので、好きなように投稿してみましょう。
 
-![投稿ボタン](./images/nostter/10-post.png)
+![投稿ボタン](./images/nostter/10-post.webp)
 
 ## プロフィールを設定する {#set-profile}
 
@@ -95,11 +95,11 @@ Nostr には文字数制限がありませんので、好きなように投稿�
 
 PCやタブレットでは、左の「プロフィール」ボタン、スマートフォンでは右下のボタンから（🙎）をタップして自分のプロフィール画面を開きます。
 
-![プロフィールボタン](./images/nostter/11-profile-button.png)
+![プロフィールボタン](./images/nostter/11-profile-button.webp)
 
 次に「編集🔧」ボタンをタップします。
 
-![ユーザ画面のプロフィール編集ボタン](./images/nostter/12-profile-edit-button.png)
+![ユーザ画面のプロフィール編集ボタン](./images/nostter/12-profile-edit-button.webp)
 
 ここでプロフィール画像などの設定ができます。
 
@@ -112,11 +112,11 @@ PCやタブレットでは、左の「プロフィール」ボタン、スマー
 他のユーザに ID を取られる心配はないので、好きなように設定しましょう。
 :::
 
-![プロフィール編集画面](./images/nostter/13-profile-edit-screen.png)
+![プロフィール編集画面](./images/nostter/13-profile-edit-screen.webp)
 
 設定が終わったら、一番下にスクロールして「Save」ボタンをタップしましょう。
 
-![プロフィール保存ボタン](./images/nostter/14-profile-save-button.png)
+![プロフィール保存ボタン](./images/nostter/14-profile-save-button.webp)
 
 ## 次のアクション {#next-action}
 
@@ -134,25 +134,25 @@ Nostr は分散型 SNS です。接続先のサーバー (**リレー** と言�
 
 PCやタブレットでは、左の「プロフィール」ボタン、スマートフォンでは右下のボタンから（🙎）をタップして自分のプロフィール画面を開きます。
 
-![プロフィールボタン](./images/nostter/11-profile-button.png)
+![プロフィールボタン](./images/nostter/11-profile-button.webp)
 
 その中から「リレー」をタップします。
 
-![リレーボタン](./images/nostter/15-relay-button.png)
+![リレーボタン](./images/nostter/15-relay-button.webp)
 
 リレーの設定画面にやってきました。
 
 nostterは日本産なため、すでに日本の主要なリレーは登録されている状態になっています。
 
-![リレー一覧](./images/nostter/16-relay-list.png)
+![リレー一覧](./images/nostter/16-relay-list.webp)
 
 追加する場合は、「Edit」をタップ後、以下のように赤枠で囲んだ入力欄に入力して「Add」をタップしてください。
 
-![リレー入力欄](./images/nostter/17-relay-input.png)
+![リレー入力欄](./images/nostter/17-relay-input.webp)
 
 設定が完了したら、「Save」をタップして保存し、左上の「ホーム」で元の画面に戻ります。
 
-![リレー保存ボタン](./images/nostter/18-relay-save-button.png)
+![リレー保存ボタン](./images/nostter/18-relay-save-button.webp)
 
 ::: tip Hint
 Read: チェックを外すと読み込みの対象から外すことができます。(Spamが多いリレーなど)
