@@ -46,6 +46,8 @@ export default defineUserConfig({
             "/tutorial/make-your-timeline.md",
             "/tutorial/explore-client.md",
             "/tutorial/nip-05.md",
+            "/tutorial/nip-07.md",
+            "/tutorial/pwa-install.md",
           ],
         },
         {
