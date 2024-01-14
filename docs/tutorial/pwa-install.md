@@ -1,9 +1,11 @@
 # PWAをインストールしよう
-いわゆるブラウザで使用できるWebアプリケーションのうち、PWA(Progressive Web Apps)と呼ばれるものは、PC・スマホアプリのようにスタートメニューやホーム画面にインストールして使用することができます。
+
+いくつかのWeb版 Nostr クライアントはPWA(Progressive Web Apps)と呼ばれる形で提供されており、PC・スマホアプリのようにスタートメニューやホーム画面にインストールして使用することができます。
 
 ここでは、[nostter](../get-started/nostter.md)を例にして、iOS, Android, Windows(Micorosft Edge)の場合を例に説明します。説明がない環境でも、同様の機能が利用できるはずです。
 
 ## 1. iOS(iPhone/iPad)の場合
+
 ブラウザでアプリのページを開き、ブラウザのメニューを開きます。
 
 ![ブラウザのメニューボタン](./images/pwa-install/ios/01-browser-menu-button.webp)
@@ -19,7 +21,6 @@
 ホーム画面に追加されました。タップするとアプリとして起動します。
 
 ![ホーム画面](./images/pwa-install/ios/04-home-screen.webp)
-
 
 ## 2. Androidの場合
 
@@ -43,7 +44,6 @@
 
 ![アプリ一覧画面](./images/pwa-install/android/05-apps-screen.webp)
 
-
 ## 3. Windows(Micorosft Edge)の場合
 
 ブラウザでアプリのページを開き、ブラウザの「アプリのインストール」ボタンをクリックします。
@@ -64,4 +64,3 @@
 
 スタートメニューやタスクバーなど、指定した場所にアプリとして追加されました。
 クリックするとアプリとして起動します。
-
