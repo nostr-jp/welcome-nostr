@@ -11,7 +11,7 @@ export default defineUserConfig({
   bundler: viteBundler({
     viteOptions: {
       server: {
-        allowedHosts: ["welcome.nostr-jp.org"]
+        allowedHosts: ["ocknamo.github.io"]
       }
     }
   }),
@@ -33,7 +33,7 @@ export default defineUserConfig({
       contributors: false,
     }),
     seoPlugin({
-      hostname: 'welcome.nostr-jp.org',
+      hostname: 'ocknamo.github.io',
       fallBackImage: '/docs/images/welcome_banner.png',
     })
   ],
