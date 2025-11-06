@@ -1,11 +1,14 @@
-import { defineUserConfig, defaultTheme } from "vuepress";
+import { defineUserConfig } from "vuepress";
+import { defaultTheme } from "@vuepress/theme-default"
+import { viteBundler } from "@vuepress/bundler-vite"
 import attrs from "markdown-it-attrs";
 import { gitPlugin } from "@vuepress/plugin-git";
 import footnote from "markdown-it-footnote";
 import toc from "markdown-it-table-of-contents";
 
 export default defineUserConfig({
-  lang: "ja_JP",
+  bundler: viteBundler({}),
+  lang: "ja-JP",
   title: "Welcome to Nostr! ～ Nostrをはじめよう！ ～",
   // Ban README.md. Use index.md instead.
   pagePatterns: ["**/*.md", "!**/README.md", "!.vuepress", "!node_modules"],
