@@ -1,13 +1,20 @@
 import { defineUserConfig } from "vuepress";
 import { defaultTheme } from "@vuepress/theme-default"
 import { viteBundler } from "@vuepress/bundler-vite"
+import { seoPlugin } from '@vuepress/plugin-seo'
 import attrs from "markdown-it-attrs";
 import { gitPlugin } from "@vuepress/plugin-git";
 import footnote from "markdown-it-footnote";
 import toc from "markdown-it-table-of-contents";
 
 export default defineUserConfig({
-  bundler: viteBundler({}),
+  bundler: viteBundler({
+    viteOptions: {
+      server: {
+        allowedHosts: ["welcome.nostr-jp.org"]
+      }
+    }
+  }),
   lang: "ja-JP",
   title: "Welcome to Nostr! ～ Nostrをはじめよう！ ～",
   // Ban README.md. Use index.md instead.
@@ -25,6 +32,10 @@ export default defineUserConfig({
     gitPlugin({
       contributors: false,
     }),
+    seoPlugin({
+      hostname: 'welcome.nostr-jp.org',
+      fallBackImage: '/docs/images/welcome_banner.png',
+    })
   ],
   theme: defaultTheme({
     navbar: [
