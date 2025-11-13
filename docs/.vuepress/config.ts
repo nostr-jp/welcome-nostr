@@ -1,13 +1,17 @@
 import { defineUserConfig } from "vuepress";
 import { defaultTheme } from "@vuepress/theme-default"
 import { viteBundler } from "@vuepress/bundler-vite"
+import { seoPlugin } from '@vuepress/plugin-seo'
 import attrs from "markdown-it-attrs";
 import { gitPlugin } from "@vuepress/plugin-git";
 import footnote from "markdown-it-footnote";
 import toc from "markdown-it-table-of-contents";
+import { ogpGeneratorPlugin } from "./plugins/gemerate-ogp/generate-ogp";
+
+const defaultOgp = "https://welcome.nostr-jp.org/ogp-default.jpg"
 
 export default defineUserConfig({
-  bundler: viteBundler({}),
+  bundler: viteBundler(),
   lang: "ja-JP",
   title: "Welcome to Nostr! ～ Nostrをはじめよう！ ～",
   // Ban README.md. Use index.md instead.
@@ -22,9 +26,20 @@ export default defineUserConfig({
     });
   },
   plugins: [
+    ogpGeneratorPlugin(),
     gitPlugin({
       contributors: false,
     }),
+    seoPlugin({
+      hostname: 'welcome.nostr-jp.org',
+      fallBackImage: defaultOgp,
+      ogp: (page, app) => {
+        const title = `${page["og:title"]}/${page["og:site_name"]}`;
+        const slug = app.slug;
+        const ogpUrl = slug && slug !== 'index' ? `https://welcome.nostr-jp.org/ogp/${slug}.jpg` : defaultOgp;
+        return ({ ...page, "og:image": ogpUrl, "og:title": title })
+      }
+      })
   ],
   theme: defaultTheme({
     navbar: [
