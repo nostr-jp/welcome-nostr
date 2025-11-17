@@ -12,11 +12,19 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-git": "^2.0.0-beta.66",
+    "@vuepress/bundler-vite": "^2.0.0-rc.26",
+    "@vuepress/plugin-git": "^2.0.0-rc.26",
+    "@vuepress/plugin-seo": "^2.0.0-rc.118",
+    "@vuepress/theme-default": "^2.0.0-rc.26",
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-table-of-contents": "^0.6.0",
+    "piscina": "^5.1.4",
+    "sass-embedded": "^1.93.3",
+    "satori": "^0.18.3",
+    "satori-html": "^0.3.2",
+    "sharp": "^0.34.5",
     "prettier": "^3.6.2",
-    "vuepress": "2.0.0-beta.63"
+    "vuepress": "2.0.0-rc.26"
   }
 }
