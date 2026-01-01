@@ -20,7 +20,7 @@
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-table-of-contents": "^0.6.0",
     "piscina": "^5.1.4",
-    "sass-embedded": "^1.93.3",
+    "sass-embedded": "^1.97.1",
     "satori": "^0.18.3",
     "satori-html": "^0.3.2",
     "sharp": "^0.34.5",
