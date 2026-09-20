@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Build
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
       - uses: actions/setup-node@v6
@@ -37,7 +37,7 @@ jobs:
           registry-url: https://registry.npmjs.org
       - name: cache node_modules
         id: node_modules_cache_id
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: |
             node_modules
@@ -46,11 +46,11 @@ jobs:
       - run: npm run build
 
       # Deploy
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v4
         with:
           path: "docs/.vuepress/dist"
           fqdn: nostr-jp.org
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
