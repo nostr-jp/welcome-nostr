@@ -12,7 +12,7 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.26",
+    "@vuepress/bundler-vite": "^2.0.0-rc.31",
     "@vuepress/plugin-git": "^2.0.0-rc.121",
     "@vuepress/plugin-seo": "^2.0.0-rc.118",
     "@vuepress/theme-default": "^2.0.0-rc.121",
